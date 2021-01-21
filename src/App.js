@@ -15,10 +15,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Introduction />
-      <YearList class="year-list" />
+      <YearList className="year-list" />
 
       <StyledButton>
-        <a href="#top" class="href">
+        <a href="#top" className="href">
           Back to top
         </a>
       </StyledButton>
