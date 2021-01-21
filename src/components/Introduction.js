@@ -1,11 +1,11 @@
-import { ShopImage, Title, Description } from "../styles";
+import { MyImage, Title, Description } from "../styles";
 
-const Home = () => {
+const Introduction = () => {
   return (
     <div>
-      <ShopImage
+      <MyImage
         src="https://avatars.githubusercontent.com/u/62260811?s=400&u=9a856ad113f8d745dba9bb5483e8d6dfcbfdc07f&v=4"
-        alt="The interior of purrfect"
+        alt="Ahmed AlKhunaizi"
       />
       <Title>AHMED ALKHUNAIZI'S</Title>
       <Description>TIMELINE </Description>
@@ -13,4 +13,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Introduction;

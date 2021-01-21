@@ -15,7 +15,7 @@ body{
 }
 `;
 
-export const ShopImage = styled.img`
+export const MyImage = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -42,7 +42,7 @@ export const ListWrapper = styled.div`
   text-align: center;
 `;
 
-export const ProductWrapper = styled.div`
+export const YearWrapper = styled.div`
   margin: 20px;
 
   img {
@@ -51,7 +51,7 @@ export const ProductWrapper = styled.div`
   }
   p {
     text-align: center;
-    &.product-price {
+    &.year-description {
       color: ${(props) => props.theme.thirdColor};
       font-weight: bold;
     }

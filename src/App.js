@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle, StyledButton } from "./styles";
-import Home from "./components/Home";
-import ProductList from "./components/ProductList";
+import Introduction from "./components/Introduction";
+import YearList from "./components/YearList";
 
 const theme = {
   mainColor: "#CCC5B9",
@@ -14,11 +14,11 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Home />
-      <ProductList class="product-list" />
+      <Introduction />
+      <YearList class="year-list" />
 
       <StyledButton>
-        <a href="#" class="href">
+        <a href="#top" class="href">
           Back to top
         </a>
       </StyledButton>

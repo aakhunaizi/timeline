@@ -1,4 +1,4 @@
-const products = [
+const years = [
   {
     id: 1,
     image:
@@ -33,7 +33,7 @@ const products = [
     year: "October 2019",
     title: "The Customer is Always Right 🤐",
     description:
-      "Developed my customer service skills through training as a customer service agent at Zain Bahrain.",
+      "Developed my customer service skills through training as a customer service agent at Zain Bahrain",
   },
   {
     id: 5,
@@ -54,4 +54,4 @@ const products = [
   },
 ];
 
-export default products;
+export default years;
